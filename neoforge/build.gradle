@@ -4,7 +4,8 @@ plugins {
 }
 
 dependencies {
-    implementation "com.teamresourceful.resourcefulconfig:resourcefulconfig-neoforge-1.21:${rconfig_version}"}
+    implementation "com.teamresourceful.resourcefulconfig:resourcefulconfig-neoforge-1.21:${rconfig_version}"
+}
 
 neoForge {
     version = neoforge_version

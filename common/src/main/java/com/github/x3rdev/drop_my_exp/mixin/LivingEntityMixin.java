@@ -38,7 +38,7 @@ public abstract class LivingEntityMixin extends Entity {
         if(DMEConfig.modEnabled && DMEConfig.oneOrb && this.getType().equals(EntityType.PLAYER)) {
             Vec3 pos = this.position();
             level().addFreshEntity(new ExperienceOrb(this.level(), pos.x(), pos.y(), pos.z(), getBaseExperienceReward()));
+            ci.cancel();
         }
-        ci.cancel();
     }
 }
