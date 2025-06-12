@@ -1,0 +1,13 @@
+{
+  "config.drop_my_exp.title": "Drop My Exp",
+  "config.drop_my_exp.desc": "An easy way to control how much exp players drop",
+  "config.drop_my_exp.modEnabled": "Mod Enabled",
+  "config.drop_my_exp.modEnabled.comment": "This option toggles the mod's functionality",
+  "config.drop_my_exp.expCap": "Exp Cap",
+  "config.drop_my_exp.expCap.comment": "This option controls the max amount of exp a player can drop\n✦ (set to -1 for no limit)",
+  "config.drop_my_exp.expPercent": "Exp Percent",
+  "config.drop_my_exp.expPercent.comment": "This option controls what percent of the player's exp drops\n✦ (applied before the cap)",
+  "config.drop_my_exp.oneOrb": "One Orb",
+  "config.drop_my_exp.oneOrb.comment": "This option can allow player exp to be dropped as a single exp orb\n✦ (good for hundreds of levels)"
+
+}
